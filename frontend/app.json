@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "Sahaaya",
+    "slug": "sahaaya",
+    "version": "1.0.0",
+    "scheme": "sahaaya",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

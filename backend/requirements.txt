@@ -1,0 +1,10 @@
+fastapi>=0.116.0
+uvicorn>=0.35.0
+sqlalchemy>=2.0.36
+pydantic>=2.11.0
+python-multipart>=0.0.20
+alembic>=1.16.0
+python-jose>=3.5.0
+passlib>=1.7.4
+bcrypt>=4.2.0
+httpx>=0.28.0

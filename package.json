@@ -1,0 +1,12 @@
+{
+  "name": "sahaaya-project",
+  "version": "1.0.0",
+  "description": "Sahaaya: An AI-Driven Mobile Health Companion for Medication Adherence and Mental Well-Being",
+  "scripts": {
+    "start": "start.bat",
+    "backend": "cd backend && .\\venv\\Scripts\\activate && uvicorn main:app --reload --port 8000",
+    "frontend": "cd frontend && npx expo start",
+    "frontend:web": "cd frontend && npx expo start --web",
+    "seed": "cd backend && .\\venv\\Scripts\\python seed_data.py"
+  }
+}
